@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{D636DA0B-B510-4B9A-ADB5-4125D335BDF9}</ProjectGuid>
+    <ProjectGuid>{FDEF0663-C376-4B7E-980F-4E4773B31E04}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Hello_World</RootNamespace>
+    <RootNamespace>Hello_World_PPP</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Hello.cpp" />
+    <ClCompile Include="Hello_World.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="std_lib_facilities.h" />

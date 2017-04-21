@@ -8,13 +8,15 @@ int main()
 	// 비어있는 벡터 정의
 	std::vector<int> first;                                // empty vector of ints
 	//2개의 크기, 값은 모두 100dmfh gkfekd
+	//벡터명<자료형> 벡터이름(크기, 할당값)
 	std::vector<int> second(6, 100);                       // four ints with value 100
 	
 	std::vector<int> third(second.begin(), second.end());  // iterating through second
 
 	std::vector<int> fourth(third);                       // a copy of third
 
-														  // the iterator constructor can also be used to construct from arrays:
+														 
+	// the iterator constructor can also be used to construct from arrays:
 	int myints[] = { 16,2,77,29 };
 	std::vector<int> fifth(myints, myints + sizeof(myints) / sizeof(int));
 
@@ -29,11 +31,11 @@ int main()
 		
 
 	//std::cout << str << std::endl;
-	/* 
+	
 	std::cout << "The contents of fifth are:";
 	for (std::vector<int>::iterator it = fifth.begin(); it != fifth.end(); ++it)
 		std::cout << ' ' << *it;
 	std::cout << '\n';
-	*/
+	
 	return 0;
 }

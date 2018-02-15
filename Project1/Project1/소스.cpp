@@ -3,16 +3,16 @@ using namespace std;
 
 int main()
 {
-	int N = 5; //배열의 길이
+	int N = 10; //배열의 길이
 	int i, j, temp;//변수를 정의한다.
-	int data[] = { 5, 3, 7, 9, 1 };//데이타를 입력한다.
+	int data[] = { 10,5, 3,8, 7, 9,11,30,4, 2 };//데이타를 입력한다.
 
 	cout << "처음 배열안에 들어 있는 것은 " << endl;
-	for (int a = 0; a < 5; ++a) {
+	for (int a = 0; a < N; ++a) {
 		cout << data[a] << " , ";
 	}
 	cout << endl;
-	cout << "--------" << endl;
+	cout << "________________________________________________" << endl;
 								   // Bubble Sort 
 	for (i = 0; i < N; i++) { //배열의 길이 만큼 정렬을 실시한다.
 		for (j = 0; j < N - (i + 1); j++) { //배열의 길이보다는 작게 정렬을 실시한다.
@@ -26,7 +26,7 @@ int main()
 		}
 	}
 	cout << "정렬을 한후에네" << endl;
-	for (int a = 0; a < 5; ++a) {
+	for (int a = 0; a < N; ++a) {
 		cout << data[a] << " , ";
 	}
 	cout << endl;

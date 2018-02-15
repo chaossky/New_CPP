@@ -15,7 +15,7 @@ char *getangle(float hour, float minute) {
 	float h_angle,m_angle;
 	char *str
 
-	h_angle = 30 * hour + minute / 2;
+		h_angle = 30 * hour + minute / 2;
 	m_angle = minute*6;
 	if(h_angle>m_angle){
 		

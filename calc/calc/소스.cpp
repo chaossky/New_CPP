@@ -28,7 +28,7 @@ int main() {
 			lval /= rval;
 			break;
 		default:
-			cout << "Result" << lval << '/n';
+			cout << "Result   " << lval << '/n';
 			keep_window_open();
 			return 0;
 			

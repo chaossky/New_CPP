@@ -8,7 +8,7 @@ using namespace std;
 void main() {
 	for(int i=0;i<10;i++){
 
-		cout << "Hello this is my game." << endl;
+		cout << "Hello this is my game."<<"  No. is  "<< i << endl;
 	}
 	
 	return ;

@@ -25,8 +25,8 @@ int main() {
 	rect.set_value(3, 4);
 	rectb.set_value(5, 6);
 
-	cout << "첫번째 면적area : " << rect.area()<<endl;
-	cout << "두번째  area :" << rectb.area() << endl;
+	cout << "첫번째 면적 area : " << rect.area()<<endl;
+	cout << "두번째 면적 area : " << rectb.area() << endl;
 
 	
 	return 0;

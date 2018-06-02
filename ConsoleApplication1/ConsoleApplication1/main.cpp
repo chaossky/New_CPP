@@ -6,7 +6,7 @@ using namespace std;
 // 메소드는 기본적으로 열번 "Hello "문장을 출력하도록 한다.
 // 함수의 반환값은 정수형으로 지정한다.
 void main() {
-	for(int i=0;i<10;i++){
+	for(int i=0;i<100;i++){
 
 		cout << "Hello this is my game."<<"  No. is  "<< i << endl;
 	}

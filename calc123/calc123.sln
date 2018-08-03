@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calc123", "calc123\calc123.vcxproj", "{550A38D3-F615-4DC8-BCA5-B6CCD465A232}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{550A38D3-F615-4DC8-BCA5-B6CCD465A232}.Debug|x64.ActiveCfg = Debug|x64
+		{550A38D3-F615-4DC8-BCA5-B6CCD465A232}.Debug|x64.Build.0 = Debug|x64
+		{550A38D3-F615-4DC8-BCA5-B6CCD465A232}.Debug|x86.ActiveCfg = Debug|Win32
+		{550A38D3-F615-4DC8-BCA5-B6CCD465A232}.Debug|x86.Build.0 = Debug|Win32
+		{550A38D3-F615-4DC8-BCA5-B6CCD465A232}.Release|x64.ActiveCfg = Release|x64
+		{550A38D3-F615-4DC8-BCA5-B6CCD465A232}.Release|x64.Build.0 = Release|x64
+		{550A38D3-F615-4DC8-BCA5-B6CCD465A232}.Release|x86.ActiveCfg = Release|Win32
+		{550A38D3-F615-4DC8-BCA5-B6CCD465A232}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A016CFDD-0DAF-4DF7-94C7-92B24EC08045}
+	EndGlobalSection
+EndGlobal
